@@ -1,0 +1,12 @@
+{
+  "name": "fork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "hardhat node --fork $ALCHEMY_URL --port 8546"
+  },
+  "devDependencies": {
+    "hardhat": "^2.0.8"
+  }
+}
